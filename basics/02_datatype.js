@@ -58,4 +58,27 @@ console.log(3+3);//code readability should be high
  console.log(typeof bigNumber);
 
  //https://262.ecma-international.org/5.1/#sec-11.4.3
+
+ //*********memory***** */
+
+ //stack(primitive) , heap(non primitive)
+
+  let myChannel = "binawaghkakkwagh"
+  let anotherchannel = myChannel
+  anotherchannel="chaiaurcode"
+  console.log(anotherchannel);
+  console.log(myChannel);
+
+  let userOne = {
+    email:"user@gmail.com",
+    upi:"user@ybl"
+  }
+
+  let usertwo = userOne
+  usertwo.email="vani@gmail.com"
+
+  console.log(userOne.email)
+  console.log(usertwo.email)
+  
+  
  
