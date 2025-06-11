@@ -22,3 +22,40 @@ console.log(3+3);//code readability should be high
  //object
 //null ek object ka datatype h aur undefined ka datatype undefined hi hai
  console.log(typeof "vani");
+
+ //***summary*** */
+ //jis type datatype store hote h uss basis pe 2 type
+
+ //primitive-call by value
+
+ //7 type: String,Number,Boolean,null,undefined,Symbol,BigInteger
+
+ const score=100
+ const scoreValue=100.3
+ const isLoggedIn=false
+ const outsideTemp=null
+ let userEmail
+
+ const id= Symbol('123')
+ const anotherId = Symbol('123')
+
+ const bigNumber = 346744314642333n
+
+ //reference (Non Primitive)
+
+ //Array,Objects,Functions
+
+ const heros = ["shaktiman","naagraj","doga"];
+ let myObj={
+   name:"vani",
+   age:20,
+ }
+
+ const myFunction = function(){
+   console.log("Hello world");
+
+ }
+ console.log(typeof bigNumber);
+
+ //https://262.ecma-international.org/5.1/#sec-11.4.3
+ 
